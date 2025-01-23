@@ -72,7 +72,7 @@ class _ImdbPageState extends State<ImdbPage> {
                           GestureDetector(
                             onTap: () {
                               Navigator.of(context).push(MaterialPageRoute(
-                                  builder: (ctx) => VideoPage()));
+                                  builder: (ctx) => YouTubePlayerScreen()));
                             },
                             child: Container(
                               width: 200,
